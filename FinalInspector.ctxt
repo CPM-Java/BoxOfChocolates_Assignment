@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=cb
+comment0.target=java.lang.String\ finalInspection(ChocolateBox)
+comment0.text=\n\ Determines\ if\ the\ chocolates\ are\ conflicting.\n\ There\ must\ not\ be\ more\ Dark\ Chocolates\ than\ Milk\ Chocolates\n\ There\ must\ not\ be\ more\ Chocolates\ with\ Walnuts\ than\ Peanuts\n\ There\ must\ not\ be\ more\ Fruit\ Filled\ Chocolates\ than\ Nougat\ filled\ or\ Solid\ filled\n\ \n\ @return\ String\ describing\ one\ detected\ conflict\n
+numComments=1

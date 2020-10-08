@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ChocolateBox()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ ChocolateBox\n\ The\ ChocolatePackagerGUI\ creates\ a\ new\ ChocolateBox\ object\n\ each\ time\ the\ "box"\ is\ shipped.\n
+comment1.params=
+comment1.target=void\ addChocolate()
+comment1.text=\n\ creates\ a\ new\ chocolate.\n\ \n\ Postcondition\:\ adds\ the\ chocolate\ to\ myChocolateList,\ the\ virtual\ chocolate\ box.\n
+comment2.params=
+comment2.target=boolean\ checkForConflicts()
+comment2.text=\n\ Determines\ if\ the\ chocolates\ are\ conflicting.\n\ There\ must\ not\ be\ more\ Dark\ Chocolates\ than\ Milk\ Chocolates\n\ There\ must\ not\ be\ more\ Chocolates\ with\ Walnuts\ than\ Peanuts\n\ There\ must\ not\ be\ more\ Fruit\ Filled\ Chocolates\ than\ Nougat\ filled\ or\ Solid\ filled\n\ \n\ Precondition\:\ myChocolateList.size()\ \!\=\ 0\n\ Postconditions\:\n\ \ \ Updates\ an\ instance\ Arraylist\ of\ chocolates\ that\ are\ conflicting,\ myConflictingChocolates.\n\ \ \ Updates\ the\ instance\ String\ myConflictStr\ with\ an\ explanation\ of\ the\ source\ of\ conflict.\n\ \n\ @return\ true\ if\ the\ chocolates\ are\ conflicting\ otherwise\ false\n
+comment3.params=
+comment3.target=java.lang.String\ getChocolateConflict()
+comment3.text=\n\ Postcondition\:\ Adds\ conflicting\ chocolates\ to\ the\ instance\ String\ myConflictStr\n\ \n\ @return\ a\ string\ showing\ the\ chocolates\ currently\ conflicting\ and\ why\ they\ are\ conflicting\n
+comment4.params=
+comment4.target=java.lang.String\ removeFreshest()
+comment4.text=\n\ Postcondition\:\ Finds\ and\ removes\ the\ freshest\ (highest\ time\ until\ expiration)\ of\ the\ conflicting\ chocolates\ \n\ from\ myConflictingChocolates\ and\ myChocolateList.\n\ \n\ @return\ a\ string\ describing\ the\ removed\ chocolate.\n
+comment5.params=
+comment5.target=java.lang.String\ getBoxContents()
+comment5.text=\n\ @return\ a\ string\ showing\ the\ contents\ of\ myChocolateList.\n
+comment6.params=
+comment6.target=int\ getChocolateQuantity()
+comment6.text=\n\ @return\ an\ integer\ representing\ the\ number\ of\ chocolates\ in\ myChocolateList.\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getChocolateList()
+comment7.text=\n\ @return\ myChocolateList.\n
+numComments=8
